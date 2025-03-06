@@ -1,0 +1,137 @@
+#pl{
+    position: absolute;
+    cursor:pointer;
+    padding-left: 2px;
+}
+
+body{
+    background-color: rgb(247, 212, 247);
+    margin-top: 150px;
+}
+.form-container{
+    margin: left;
+    border: 2px;
+    margin-top: 50px;
+}
+.container1{
+    width:30%;
+    float: left;
+    padding-left: 200px;
+    height: 800%;
+    border: solid 0px;
+    overflow: auto;
+    padding-bottom: 6.8%;
+}
+.content-container{
+    overflow: auto;
+    border-left: solid 1px plum;
+     padding-left: 200px; 
+     margin-left: 200px; 
+     width: 40%;
+     height: 50%;
+     padding-bottom: 4%;
+     
+}
+#submit button{
+    width: 40%;
+    padding: 4px;
+    color: white;
+    border: none;
+    border-radius: none;
+    background-color: purple;
+    background: none;
+    cursor: pointer;
+}
+#h1{
+    color: purple;
+    text-align: center;
+
+}
+#h2{
+    text-align: center;
+}
+#h3{
+    text-align: center;
+}
+#image{
+    shape-image-threshold: 40px;
+}
+
+.names{
+    display: flex;
+    gap:13px;
+  
+}
+#Fname{
+    width: 12%;
+    padding-right: 0px;
+    margin: 35px;
+    justify-content: left;
+   
+}
+
+#Lname{
+    width: 11.5%;
+    margin: 35px;
+    justify-content: right;
+}
+#Email{
+padding: 8px;
+width: 65%;
+}
+#Password{
+    padding: 8px;
+    width: 65%;
+}
+#submit{
+    width: 67%;
+    height: 60%;
+    padding: 8px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+.icons{
+    text-align: center;
+    width: 65%;
+    height: 20%;
+    margin: auto;
+    gap: 20%;
+    display: flex;
+    padding-right: 70px;
+    font-size: 40px;
+}
+.hr-lines{
+    position: relative;
+    max-width: 900px;
+    padding-right: 300px;
+    background-color:none;
+
+    text-align: center;
+    }
+.hr-lines:before{
+    content: "";
+    height: 1px;
+    width: 29%;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    padding-right: 0px;
+    background-color: wheat;
+}
+.hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 0%;
+    background:black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    padding-left: 200px 150%;
+}
+p {
+    margin-left: 100px;
+}
